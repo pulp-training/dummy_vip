@@ -8,12 +8,12 @@
 
 2.  Create a package description for IPApprox in your newly forked
     repository listin the relevant files within the package. Since
-    dummy<sub>vip</sub> contains non-synthesizable code it should be
+    dummy_vip contains non-synthesizable code it should be
     packaged in a manner such that it won't be included during ASIC &
     FPGA synthesis.
 
 3.  Instantiate the `dummy_top` module within the toplevel of `pulp_soc`
-    (you have to create a new fork of pulp<sub>soc</sub> for this
+    (you have to create a new fork of pulp_soc for this
     purpose). Again, take the appropriate measures to only include
     module if we are compiling the codebase for simulation.
 
