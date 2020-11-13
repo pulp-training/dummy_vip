@@ -28,7 +28,7 @@
     ../ips/dummy_vip/rtl/dummy_submodule.sv Line: 28
     ```
 
-5.  If everything works, freeze your changes to the dummy<sub>vip</sub>
+5.  If everything works, freeze your changes to the dummy_vip
     fork and update all version tags in the dependent packages.
 
 6.  Run ./update-ips for a last time to verify, that the version
